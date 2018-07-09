@@ -86,10 +86,19 @@
                   <div class="col">76/100</div>
                 </div>
               </div>
-              <div class="mb-2">
+              <div class="mb-4">
                 <div class="row">
                   <div class="col-6">Wirtschafts- und Sozialkunde</div>
                   <div class="col">72/100</div>
+                </div>
+              </div>
+              <div>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="font-weight-bold mb-2">KMK-Fremdsprachen-Zertifikat</div>
+                    <div>Englisch, Niveaustufe II (B1)</div>
+                  </div>
+                  <div class="col font-weight-bold">118/130 (90,8 %)</div>
                 </div>
               </div>
             </div>
@@ -97,7 +106,7 @@
         </div>
       </div>
     </div>
-    <div>
+    <div class="d-inline-block w-100">
       <h2>Skills</h2>
       <div v-for="category in skillCategories" :key="category.title" class="mb-4">
         <h3 class="skill-title mb-3 mt-0"><span>{{ category.title }}</span></h3>
@@ -110,6 +119,15 @@
             <span v-html="skill"></span>
           </span>
         </div>
+      </div>
+    </div>
+
+    <div class="d-inline-block w-100">
+      <h2>Side Projects</h2>
+      <div>
+        <ul> 
+          <li><a href="https://softwarekompass.de" target="_blank">Softwarekompass.de</a> - Affiliate Projekt; Datenbank mit Business-Software</li>
+        </ul>
       </div>
     </div>
   </div>
@@ -156,7 +174,7 @@ export default {
             '<i class="fab fa-npm"></i> NPM',
             '<i class="fas fa-wrench"></i> Composer',
             '<i class="fas fa-wrench"></i> Webpack',
-            '<i class="fas fa-code"></i> VSCode',
+            '<i class="fas fa-code"></i> Visual Studio Code',
           ],
         },
         {
@@ -235,9 +253,6 @@ h2 {
   cursor: default;
   user-select: none;
   white-space: nowrap;
-  &:hover {
-    color: #FAFAFA;
-  }
 }
 .work-experience {
   font-size: .8em;
