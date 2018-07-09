@@ -1,6 +1,12 @@
 <template>
   <div id="app">
-    <resume />
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <resume />
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -15,7 +21,14 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+@import 'bootstrap/scss/_functions.scss';
+@import 'bootstrap/scss/_variables.scss';
+@import 'bootstrap/scss/_mixins.scss';
+@import 'bootstrap/scss/_utilities.scss';
+@import 'bootstrap/scss/_grid.scss';
+@import 'bootstrap/scss/_images.scss';
+
 body {
   padding: 0;
   margin: 0;
@@ -25,5 +38,11 @@ body {
   color: #FAFAFA;
   background-color: #212121;
   font-size: 16px;
+}
+a {
+  color: #03A9F4;
+  &:hover {
+    color: #B3E5FC;
+  }
 }
 </style>

@@ -9,6 +9,7 @@
     "deploy": "npm run build && push-dir --dir=dist --branch=master --cleanup"
   },
   "dependencies": {
+    "bootstrap": "^4.1.1",
     "vue": "^2.5.16"
   },
   "devDependencies": {
