@@ -11,14 +11,14 @@
         </div>
       </div>
     </div>
-    <div class="d-inline-block w-100 mt-3">
+    <div class="mt-3">
       <h2>Berufserfahrung</h2>
       <div class="work-experience">
         <div class="row mb-5">
           <div class="col-12 col-sm-4">
             <div class="time mb-4 mb-sm-0">
               <div class="mb-2 font-weight-bold">07/2017 - heute</div>
-              <div>Webentwickler @ <a href="https://www.alfa-direkt.de/" target="_blank">Alfa GmbH</a></div>
+              <div>Webentwickler @ <a href="https://goo.gl/Ss8X7M" target="_blank">Alfa GmbH</a></div>
             </div>
           </div>
           <div class="col">
@@ -33,10 +33,10 @@
               </ul>
               <div class="mb-2 font-weight-bold">Projektbeispiele</div>
               <ul class="pl-3 mb-0">
-                <li><a href="https://www.alfa-direkt.de/handwerker-wirbt-handwerker" target="_blank">Handwerker wirbt Handwerker</a></li>
-                <li><a href="https://www.alfa-direkt.de/alfaplus" target="_blank">Alfa Plus</a></li>
-                <li><a href="https://www.alfa-direkt.de/alfa-app" target="_blank">Alfa App (WebView)</a></li>
-                <li><a href="https://www.alfa-direkt.de/etag" target="_blank">ETAG Verbrauchsrechner</a></li>
+                <li><a href="https://goo.gl/v7RjSs" target="_blank">Handwerker wirbt Handwerker</a></li>
+                <li><a href="https://goo.gl/PVN2qZ" target="_blank">Alfa Plus</a></li>
+                <li><a href="https://goo.gl/ib2fLq" target="_blank">Alfa App (WebView)</a></li>
+                <li><a href="https://goo.gl/QB5ucj" target="_blank">ETAG Verbrauchsrechner</a></li>
               </ul>
             </div>
           </div>
@@ -45,7 +45,7 @@
           <div class="col-12 col-sm-4">
             <div class="time mb-4 mb-sm-0">
               <div class="mb-2 font-weight-bold">09/2014 - 07/2017</div>
-              <div class="mb-1">Ausbildung Informatikkaufmann @ <a href="https://www.alfa-direkt.de/" target="_blank">Alfa GmbH</a></div>
+              <div class="mb-1">Ausbildung Informatikkaufmann @ <a href="https://goo.gl/Ss8X7M" target="_blank">Alfa GmbH</a></div>
               <div>Unterrichtet @ <a target="_blank" href="https://www.ks-heidenheim.de/">Kaufmännische Schule Heidenheim</a></div>
             </div>
           </div>
@@ -106,7 +106,7 @@
         </div>
       </div>
     </div>
-    <div class="d-inline-block w-100">
+    <div class="">
       <h2>Skills</h2>
       <div v-for="category in skillCategories" :key="category.title" class="mb-4">
         <h3 class="skill-title mb-3 mt-0"><span>{{ category.title }}</span></h3>
@@ -122,7 +122,7 @@
       </div>
     </div>
 
-    <div class="d-inline-block w-100">
+    <div class="">
       <h2>Side Projects</h2>
       <div>
         <ul> 
