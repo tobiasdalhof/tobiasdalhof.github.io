@@ -7,7 +7,7 @@
       <div class="col d-flex justify-content-center flex-column">
         <div>
           <h1 class="mt-0 mb-2">{{ getGreeting() }}. Ich bin Tobias Dalhof und das ist mein Résumé.</h1>
-          <p class="m-0"><a href="https://github.com/tobiasdalhof" target="_blank"><i class="fab fa-github mr-2"></i>Github</a> - <a href="https://www.xing.com/profile/Tobias_Dalhof" target="_blank"><i class="fab fa-xing mr-2"></i>Xing</a> - <a href="https://www.linkedin.com/in/tobias-dalhof/" target="_blank"><i class="fab fa-linkedin mr-2"></i>LinkedIn</a> | *20.10.1993 - aus <a href="https://www.google.de/maps/search/Ellwangen/@48.9649778,10.1094564,12z" target="_blank">Ellwangen</a></p>
+          <p class="m-0"><a href="https://www.xing.com/profile/Tobias_Dalhof" target="_blank"><i class="fab fa-xing mr-2"></i>Xing</a> - <a href="https://www.linkedin.com/in/tobias-dalhof/" target="_blank"><i class="fab fa-linkedin mr-2"></i>LinkedIn</a> | *20.10.1993 - aus <a href="https://www.google.de/maps/search/Ellwangen/@48.9649778,10.1094564,12z" target="_blank">Ellwangen</a></p>
         </div>
       </div>
     </div>
